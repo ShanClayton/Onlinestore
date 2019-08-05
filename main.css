@@ -327,4 +327,12 @@ footer{
 .line{
   border-top-color: rgba(255,255,255, .1);
 }
+
+.copyright{
+  font-size: 12px;
+}
+
+.btmrow{
+  font-size: 12px;
+}
 /* end footer */
