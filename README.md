@@ -2,6 +2,7 @@
 
 
 ## Future Optimizations
+Allow users to browse sections of shoes
 Create a backend to allow users to register, login, and add payment information
 
 # Credit
