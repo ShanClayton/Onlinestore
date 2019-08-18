@@ -5,4 +5,4 @@
 Create a backend to allow users to register, login, and add payment information
 
 # Credit
-All site images are included courtesy [Finishline](https://www.finishline.com/), icons were created using [Flaticon](https://www.flaticon.com/).
+All site images are included courtesy of [Finishline](https://www.finishline.com/), icons were created using [Flaticon](https://www.flaticon.com/).

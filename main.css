@@ -184,25 +184,6 @@ section{
 }
 /* end image carousel */
 
-
-
-/* large screens */
-@media(min-width: 992px){
-  .main-nav-outer{
-    width: initial;
-    height: initial;
-    background-color: initial;
-    position: initial;
-    border: none;
-  }
-  .nav-icons .dropdown-menu{
-    margin-left: -260px;
-  }
-
-  .nav-icons .dropdown-menu::before{
-    right: 10px;
-  }
-}
 /* end header*/
 
 /* start featured brands */
@@ -335,4 +316,72 @@ footer{
 .btmrow{
   font-size: 12px;
 }
+footer hr{
+  border-top-color: rgba:(255,255,255, .1)
+}
 /* end footer */
+
+/* cart */
+.heading-has-bg{
+  background: linear-gradient(to left, rgba(35, 213, 227, 0.7), rgba(145, 73, 185,0.7 )),
+              url("./images/hero/heading-img.jpeg") center no-repeat;
+background-size: cover;
+  height: 30vh;
+}
+
+.heading-has-bg h1{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0.625rem 1.5rem rgba(0, 0, 0, .4);
+}
+
+.cart-item-container{
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0, .1);
+}
+
+.cart-item-img{
+  max-width: 350px;
+}
+
+.remove-cart-item{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(220, 53, 60, 0.5);
+}
+
+
+/* end cart */
+
+/* Media Queries */
+/* large screens */
+@media(min-width: 992px){
+  .main-nav-outer{
+    width: initial;
+    height: initial;
+    background-color: initial;
+    position: initial;
+    border: none;
+  }
+  .nav-icons .dropdown-menu{
+    margin-left: -260px;
+  }
+
+  .nav-icons .dropdown-menu::before{
+    right: 10px;
+  }
+}
+/* end large screens */
+
+/* small screens */
+@media (min-width: 576px){
+  .product-card{
+    height: 280px
+  }
+}
